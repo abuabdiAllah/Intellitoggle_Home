@@ -4,23 +4,21 @@
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="flex items-center space-x-2">
-          <div class="w-8 h-8 bg-white rounded flex items-center justify-center">
-            <span class="text-primary font-bold text-xl">IT</span>
-          </div>
+          <img src="/public/images/logo.svg" alt="IntelliToggle Logo" class="h-8" />
           <span class="text-white font-semibold text-lg">IntelliToggle</span>
         </div>
 
         <!-- Desktop Navigation -->
         <div class="hidden md:flex items-center space-x-8">
           <a href="#" class="text-white hover:text-accent-orange transition-colors">Home</a>
-          <a href="#" class="text-white hover:text-accent-orange transition-colors">Use Cases</a>
+          <a href="#" class="text-white hover:text-accent-orange transition-colors">About</a>
           <a href="#" class="text-white hover:text-accent-orange transition-colors">Pricing</a>
         </div>
 
         <!-- CTA Button -->
         <div class="hidden md:block">
           <button class="bg-accent-orange hover:bg-orange-500 text-white px-6 py-2 rounded-md font-semibold transition-colors">
-            Get a Demo
+            Start Sandbox
           </button>
         </div>
 
