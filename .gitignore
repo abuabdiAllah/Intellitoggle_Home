@@ -1,0 +1,41 @@
+# Nuxt dev/build outputs
+.output
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+*.local
+
+# vim
+*.swp
+*.swo
+*.swn
+*.bak
+
+# IDE
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.vscode
+
+# Env
+.env
+.env.local
+.env.*.local
