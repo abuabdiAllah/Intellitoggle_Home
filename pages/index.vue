@@ -10,7 +10,7 @@
       <ComparisonTable />
       <DartCodeAISection />
       <PricingSection />
-      <TestimonialsSection />
+      <WhyTeamsUse />
       <CTASection />
     </main>
     <Footer />
@@ -18,5 +18,7 @@
 </template>
 
 <script setup>
+import WhyTeamsUse from '../components/WhyTeamsUse.vue';
+
 // Components are auto-imported by Nuxt
 </script>

@@ -35,7 +35,7 @@
           <!-- PNG Frame from Figma -->
           <div class="relative inline-block w-full">
             <img 
-              src="public/images/dashboardFrame.png" 
+              src="/public/images/dashboardFrame.png" 
               alt="Dashboard Frame" 
               class="w-full"
             />
@@ -43,7 +43,7 @@
             <!-- GIF positioned inside - NO HEIGHT, just width -->
             <div class="absolute top-[10%] left-[5%] right-[5%]">
               <img 
-                src="public/images/dashboard.png" 
+                src="/public/images/dashboard.gif" 
                 alt="Dashboard Demo" 
                 class="w-full"
               />

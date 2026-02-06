@@ -13,25 +13,22 @@
         </span>
         
         <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-          Launch Features Confidently With AI
+          Launch Features Confidently With AI <br>
+          Driven Feature Flags 
         </h2>
         
         <p class="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-          Join thousands of teams shipping faster with IntelliToggle's powerful feature flag platform
+          Start for free, scale as your team grows
         </p>
 
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
           <button class="bg-accent-orange hover:bg-orange-500 text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors shadow-xl w-full sm:w-auto">
-            Start Free Trial
+            Start for $1/mo
           </button>
           <button class="border-2 border-white text-white hover:bg-white hover:text-primary px-8 py-4 rounded-md font-semibold text-lg transition-colors w-full sm:w-auto">
-            Schedule Demo
+            Join AI Early Access
           </button>
         </div>
-
-        <p class="text-white/70 text-sm">
-          No credit card required • 7-day free trial • Cancel anytime
-        </p>
       </div>
     </div>
   </section>

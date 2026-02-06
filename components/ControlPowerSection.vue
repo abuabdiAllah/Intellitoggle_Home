@@ -8,84 +8,75 @@
       </div>
 
       <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-        <!-- Card 1: Dark Mode -->
-        <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-          <div class="bg-gray-900 h-48 relative overflow-hidden">
-            <!-- Mock Terminal/Dark Interface -->
-            <div class="absolute inset-0 p-4 font-mono text-xs">
-              <div class="text-green-400 mb-2">$ intellitoggle init</div>
-              <div class="text-gray-400 mb-1">Initializing feature flags...</div>
-              <div class="text-green-400 mb-1">✓ Connected to dashboard</div>
-              <div class="text-green-400 mb-1">✓ 5 flags loaded</div>
-              <div class="text-gray-400 mb-1">Ready to toggle!</div>
-              <div class="text-green-400 animate-pulse">▊</div>
-            </div>
-          </div>
+        <!-- Card 1-->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
           <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-900 mb-3">Dark Mode</h3>
-            <p class="text-gray-600 text-sm leading-relaxed">
-              Built for developers who love working in dark mode. Our interface adapts to your preferences seamlessly.
+            <img 
+              src="/public/images/control_left.png"
+              alt="Connect"
+              class="w-full max-h-64 object-contain mx-auto"
+            />
+          </div>
+
+          <div class="px-6 pb-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Connect</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">
+              Install SDK in your Dart project in 2 mins.
             </p>
-            <button class="mt-4 text-accent-orange hover:text-orange-600 font-semibold text-sm flex items-center group-hover:gap-2 transition-all">
-              Learn more 
-              <svg class="w-4 h-4 ml-1 group-hover:ml-2 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
+            <a
+              href="#"
+              class="inline-block border border-gray-300 hover:border-accent-orange text-gray-700 hover:text-accent-orange px-4 py-2 rounded text-sm font-medium transition-colors"
+            >
+              View Documentation
+            </a>
           </div>
         </div>
 
-        <!-- Card 2: Real-time -->
-        <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-          <div class="bg-gradient-to-br from-primary to-primary-dark h-48 relative overflow-hidden flex items-center justify-center">
-            <!-- Mock Real-time Dashboard -->
-            <div class="text-center text-white">
-              <div class="text-5xl font-bold mb-2">247</div>
-              <div class="text-sm opacity-80 mb-4">Active Users</div>
-              <div class="flex items-center justify-center gap-2">
-                <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span class="text-xs">Live Updates</span>
-              </div>
-            </div>
-          </div>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
           <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-900 mb-3">Real-time</h3>
-            <p class="text-gray-600 text-sm leading-relaxed">
-              See changes instantly. Monitor feature flag usage and user engagement in real-time with live dashboards.
+            <img 
+              src="/public/images/control_center.png"
+              alt="Create Flags"
+              class="w-full max-h-64 object-contain mx-auto"
+            />
+          </div>
+
+          <div class="px-6 pb-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Create Flags</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">
+              Define features in IntelliToggle in dashboard.
             </p>
-            <button class="mt-4 text-accent-orange hover:text-orange-600 font-semibold text-sm flex items-center group-hover:gap-2 transition-all">
-              Learn more 
-              <svg class="w-4 h-4 ml-1 group-hover:ml-2 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
+            <a
+              href="#"
+              class="inline-block border border-gray-300 hover:border-accent-orange text-gray-700 hover:text-accent-orange px-4 py-2 rounded text-sm font-medium transition-colors"
+            >
+              View Documentation
+            </a>
           </div>
         </div>
 
-        <!-- Card 3: Kill Switches -->
-        <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
-          <div class="bg-red-50 h-48 relative overflow-hidden flex items-center justify-center">
-            <!-- Mock Kill Switch Interface -->
-            <div class="text-center">
-              <div class="inline-flex items-center justify-center w-20 h-20 bg-red-500 rounded-full mb-4 shadow-lg">
-                <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </div>
-              <div class="text-sm font-semibold text-gray-700">Emergency Override</div>
-            </div>
-          </div>
+        <!-- Card 3 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
           <div class="p-6">
-            <h3 class="text-xl font-bold text-gray-900 mb-3">Kill Switches</h3>
-            <p class="text-gray-600 text-sm leading-relaxed">
-              Instantly disable problematic features with one click. No deployment needed. Perfect for emergency situations.
+            <img 
+              src="/public/images/control_right.png"
+              alt="Ship & Control"
+              class="w-full max-h-64 object-contain mx-auto"
+            />
+          </div>
+
+          <div class="px-6 pb-6">
+            <h3 class="text-xl font-bold text-gray-900 mb-3">Ship & Control</h3>
+            <p class="text-gray-600 text-sm leading-relaxed mb-4">
+              Flip switches anytime, see instant results.
             </p>
-            <button class="mt-4 text-accent-orange hover:text-orange-600 font-semibold text-sm flex items-center group-hover:gap-2 transition-all">
-              Learn more 
-              <svg class="w-4 h-4 ml-1 group-hover:ml-2 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-              </svg>
-            </button>
+            <a
+              href="#"
+              class="inline-block border border-gray-300 hover:border-accent-orange text-gray-700 hover:text-accent-orange px-4 py-2 rounded text-sm font-medium transition-colors"
+            >
+              View Documentation
+            </a>
           </div>
         </div>
       </div>
