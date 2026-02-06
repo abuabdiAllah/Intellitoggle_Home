@@ -2,30 +2,15 @@
 
 ## Desktop View Differences
 
-1. **Fonts**: Using Inter font from Google Fonts. The original design may use custom font weights or slightly different sizing.
-
-2. **Assets**: Logo placeholders used instead of actual company logos (Vercel, Webflow, Stripe, GitLab, Linear). Dashboard screenshots are CSS mockups rather than actual images.
-
+1. **Fonts and Sizes**: minor differences in fonts and sizes
+2. **Background**: I didn't include the background image for the section before the footer.
 3. **Spacing**: Minor differences may exist in exact pixel spacing between sections. Overall layout structure matches the design.
 
 ## Mobile View Differences
 
-1. **Images**: Same as desktop - using placeholders for logos and CSS mockups for dashboard views.
+1. **Images**: I improved the view so that there is no cutoff from the right side and the user can see everything clearly. 
+2. **Dynamic 'Hamburger' Nav Bar**: Helpful ddition to figma design 
+3. **Breakpoints**: Using standard Tailwind breakpoints (768px for md, 1024px for lg) which differ from exact Figma design breakpoints.
 
-2. **Font Rendering**: May vary slightly depending on device/browser due to system font rendering differences.
+-> Note: I did not know if the first media position should be a png or a gif. I left it as a png because it looked better but supplied the gif as well in public/images so you can easily switch them out. 
 
-3. **Breakpoints**: Using standard Tailwind breakpoints (768px for md, 1024px for lg) which may differ from exact Figma design breakpoints.
-
-## General Notes
-
-- All interactive elements (hover states, mobile menu) are functional
-- Color scheme matches design specifications (#4A3F8F primary, #FFA726 accent)
-- Component structure is modular and maintainable
-- Responsive behavior follows mobile-first principles
-
-## Future Improvements for Pixel-Perfect Match
-
-- Export actual assets from Figma (logos, images, icons)
-- Fine-tune spacing using exact px values from Figma design specs
-- Match exact font weights and letter spacing
-- Add custom breakpoints if Figma uses non-standard sizes
