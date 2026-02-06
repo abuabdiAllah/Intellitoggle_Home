@@ -6,6 +6,7 @@
 2. **Background**: I didn't include the background image for the section before the footer.
 3. **Spacing**: Minor differences may exist in exact pixel spacing between sections. Overall layout structure matches the design.
 4. **Github logo**: used the wrong color, easy fix though
+5. **Company logo**: appears slightly truncated on its left side in the header and footer
 
 ## Mobile View Differences
 
