@@ -1,12 +1,12 @@
 <template>
-  <footer class="bg-[#A9A9A9] py-16">
+  <footer class="bg-[#ECEBF5] py-16">
     <div class="max-w-7xl mx-auto px-6">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
 
         <!-- Logo & description -->
         <div>
           <div class="flex items-center gap-3 mb-4">
-            <img src="/images/logo.svg" class="h-8 w-auto" />
+            <img src="/images/logoPurple.svg" class="h-8 w-auto" />
             <span class="font-semibold text-lg text-gray-900">IntelliToggle</span>
           </div>
 

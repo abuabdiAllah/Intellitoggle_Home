@@ -1,6 +1,6 @@
 <template>
   <header class="fixed top-0 left-0 right-0 bg-primary z-50">
-    <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 bg-[#42389E]">
       <div class="flex items-center justify-between">
         <!-- Logo -->
         <div class="flex items-center space-x-2">
@@ -17,7 +17,7 @@
 
         <!-- CTA Button -->
         <div class="hidden md:block">
-          <button class="bg-accent-orange hover:bg-orange-500 text-white px-6 py-2 rounded-md font-semibold transition-colors">
+          <button class="bg-accent-orange hover:bg-orange-500 text-[#42389E] px-6 py-2 rounded-md font-semibold transition-colors">
             Start Sandbox
           </button>
         </div>
