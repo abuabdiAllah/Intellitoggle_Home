@@ -13,33 +13,7 @@ A creation of the IntelliToggle homepage design built with **Nuxt 3**, **Vue 3**
 - **TailwindCSS** 
 - **Vite** 
 
-## Installation
-
-```bash
-# Install dependencies
-npm install
-
-# Development server (runs on http://localhost:3000)
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## 🎨 Design Fidelity
-
-This implementation closely matches the Figma design with:
-
-- **Colors**: Custom purple theme (#4A3F8F) with orange accents (#FFA726)
-- **Typography**: Inter font family
-- **Spacing**: Consistent padding and margins matching design specs
-- **Components**: All sections from the original design
-- **Responsive**: Mobile-first approach with breakpoints
-
-## 🔧 Interactive Elements
+## Interactive Elements
 
 1. **Mobile Menu Toggle** (Header component)
    - Hamburger icon that transforms to X
@@ -54,7 +28,7 @@ This implementation closely matches the Figma design with:
 
 1. **Animations**: Add more sophisticated scroll-triggered animations using libraries like GSAP or Framer Motion
 
-## 🎯 Pixelay Comparison
+## Pixelay Comparison
 
 See the `/pixelay` folder for:
 - Desktop overlay comparison
